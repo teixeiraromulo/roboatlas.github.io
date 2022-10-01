@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atlas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="container-fluid bg-dark">
+    <!-- navbar -->
+    <div class="container-fluid d-flex row align-items-center sticky-top">
+
+        <div class="container-fluid col-lg-11 col-sm-11 col-md-11 d-flex justify-content-between sticky-top">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#therobot">
+                        <img class="img-icon-size img-fluid" src="./images/LOGO-ATLAS.png">
+                    </a>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#therobot"><strong>Atlas</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#images"><strong>Imagens</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#weapon"><strong>Arma</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#hardware"><strong>Hardware</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#ratio"><strong>Vídeos</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#group"><strong>Membros</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#next"><strong>Next</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#handsOn"><strong>Hands'On</strong></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="navbar-brand text-blue" href="#contato"><strong>Contato</strong></a>
+                        </li>
+            </nav>
+
+
+        </div>
+    </div>
+    <!-- end of navbar -->
+
+    <!-- robot presentation -->
+    <div id="therobot" class="row container-fluid text-light d-flex align-items-center p-5 full-height">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 container-fluid">
+            <img class=" img-md img-fluid rounded" src="./images/robo/20220914_160137.jpg" alt="">
+        </div>
+        <div class="container text-center col-lg-5">
+            <h1 class="text-blue display-2">ATLAS</h1>
+            <p class="fs-4">Atlas, um Titã da mitologia grega que antes carregava o mundo em suas costas, hoje
+                carregará
+                a
+                bexiga
+                defendida pela equipe Olimpo, a criação do robô foi inteira baseada na capacidade do Titã em
+                sustentar a Terra e assim defendê-la, com seu leque, traz a capacidade de ser agressivo e defensivo
+                ao mesmo tempo, assim Atlas irá para a Glória eterna e será campeão da Robo Cup FIAP.</p>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+
+    <!-- carousel -->
+    <div id="images" class="my-5 row">
+        <div class="col-12 my-5"></div>
+        <h2 class="text-blue display-3 text-center">Imagens</h2>
+        <div id="carouselExampleFade" class="text-center carousel slide carousel-fade col-lg-12 col-sm-12 col-md-12 p-5"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/robo/20220914_160118.jpg" class="rounded" width="50%" alt="Imagem robo montado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/robo/20220914_160206.jpg" class="rounded" width="50%" alt="Imagem robo montado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/robo/20220914_160151.jpg" class="rounded" width="50%" alt="Imagem robo montado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/robo/20220914_160240.jpg" class="rounded" width="50%" alt="Imagem robo montado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/robo/20220914_160055.jpg" class="rounded" width="50%" alt="Imagem robo montado">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="rounded carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="rounded carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Beggining of Weapon Section -->
+    <div id="weapon"
+        class="text-light robot-presentation weapon d-flex col-sm-12 col-lg-12 text-center align-items-center row justify-content-evenly">
+        <div class="col-lg-1"></div>
+        <div class="robot-image col-lg-5 col-sm-12">
+            <img class="rounded float-start img-fluid" width="100%" height="550px" src="./Images/robo/arma.jpg"
+                alt="imagem da arma do robô">
+        </div>
+        <div class="text-presentation col-lg-6 col-sm-12 fs-4">
+            <h2 class="text-blue display-2">Arma</h2>
+            <p class="">Equipado com um leque, o Altlas contará com 4 lâminas altamente afiadas e um sistema de
+                sensores
+                pronto para quando entrar em contato com os robôs oponentes o leque abra em alta velocidade para
+                assim furar a bexiga do robô que estiver enfrentando.</p>
+        </div>
+        <div class="col-12"></div>
+    </div>
+    <!-- End of Weapon Section -->
+
+    <!-- Beggining of Hardware Section -->
+    <div id="hardware"
+        class="text-light full-height robot-presentation hardware d-flex col-sm-12 col-lg-12 text-center align-items-center row">
+        <div class="col-lg-1"></div>
+        <div class="text-hardware col-lg-5 col-sm-12 fs-4">
+            <h2 class="text-blue display-2">Hardware</h2>
+            <p>Sua Projeção foi executada primariamente em cima da capacidade do arduino, portanto foi onde ele teve
+                sua programação escrita, os outros componentes são basicamente para fazer ele se locomover e atacar,
+                sendo, duas rodas, tês motores, dois soquets de pilha, suporte para o celular, suporte para a bexiga
+                e o interruptor para ligar e desligar o robô. </p>
+        </div>
+        <div class="robot-image col-lg-5 col-sm-12">
+            <img class="rounded float-start" width="100%" src="./Images/Hardware/Arduino_Uno_(Versión_Informática).png"
+                alt="imagem do arduino">
+        </div>
+        <div class="col-lg-1"></div>
+
+    </div>
+    <!-- End of Hardware Section -->
+
+    <!-- Beggining of ratio section -->
+    <h2 id="ratio" class="text-blue display-2 text-center">Vídeos sobre o Atlas</h2>
+    <div class="container d-flex justify-content-center half-height align-items-center">
+        <div class="accordion accordion-flush col-12 col-lg-6" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Montagem do Robô
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/WUefc4TFBSc" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Robô funcionando
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/vb4F3w9Q8M0" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End of ratio section -->
+
+    <!-- beggining of the group presentation -->
+    <div id="group" class="text-center justify-content-evenly p-3">
+        <h2 class="text-blue display-5 p-5">Membros do Grupo</h2>
+
+        <div class="row justify-content-evenly mb-5">
+            <div class="border border-light bg-transparent text-light card col-lg-2 col-md-5 col-10 mx-3 my-3">
+                <img src="./images/perfil/Luiz perfil.jpeg" class="card-img-top p-3" alt="foto perfil luiz">
+                <div class="card-body">
+                    <h5>Luiz Paulo </h5>
+                    <p class="card-text">Responsável pela análise de sistema e resultados empresariais.</p>
+                </div>
+            </div>
+            <div class="border border-light bg-transparent text-light card col-lg-2 col-md-5 col-10 mx-3 my-3">
+                <img src="./images/perfil/perfil romulo.jpg" class="card-img-top p-3" alt="foto perfil luiz">
+                <div class="card-body">
+                    <h5>Rômulo Teixeira</h5>
+                    <p class="card-text">Desenvolvedor Front-End, responsável pelo desenvolvimento e design do site.
+                    </p>
+                </div>
+            </div>
+            <div class="border border-light bg-transparent text-light card col-lg-2 col-md-5 col-10 mx-3 my-3">
+                <img src="./images/perfil/pedro perfil.jpeg" class="card-img-top p-3" height="61%"
+                    alt="foto perfil luiz">
+                <div class="card-body">
+                    <h5>Pedro Lamark</h5>
+                    <p class="card-text">Líder e responsável pelas montagens e testes do Robô.</p>
+                </div>
+            </div>
+            <div class="border border-light bg-transparent text-light card col-lg-2 col-md-5 col-10 mx-3 my-3">
+                <img src="./images/perfil/Vinny.jfif" class="card-img-top p-3" height="61%" alt="foto perfil luiz">
+                <div class="card-body">
+                    <h5>Vinicius Silveira</h5>
+                    <p class="card-text">Designer, responsável pela arte do robô e parte artística visual</p>
+                </div>
+            </div>
+            <div class="border border-light bg-transparent text-light card col-lg-2 col-md-5 col-10 mx-3 my-3">
+                <img src="./images/perfil/dudu.jpeg" class="card-img-top p-3" height="60%" alt="foto perfil Dudu">
+                <div class="card-body">
+                    <h5>Eduardo Santos</h5>
+                    <p class="card-text">Gestão de pessoas e captação de clientes/colaboradores</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of the group presentation -->
+
+    <!-- Beggining of the "next" event -->
+    <div id="next" class="row">
+        <div
+            class="d-flex justify-content-center next p-5 container-fluid col-sm-12 col-lg-12 col-md-12 col-12 full-height align-items-center">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Final da Robocup
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>A incrível competição de batalha de robôs anual da FIAP tem a sua final, venha se
+                                divertir e
+                                sentir toda a adrenalina das lutas.</p>
+                            <p>Alguns chegaram até aqui, mas apenas um será campeão.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Rock'n'Roll
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    A Next também contará com um incrível show de Rock, pra você que ficou magoado,
+                                    ou
+                                    que
+                                    está extremamente feliz a noite terá um final incrível, com a banda cover do
+                                    AC/DC.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Votação para iniciação científica.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p>Durante a Next haverão inúmeras apresentações de iniciação científica e você
+                                        poderá
+                                        votar para a que achar melhor para consegrar o grupo campeão</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Premiações
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    Todos os eventos de competição que estarão rolando na Next, serão premiados,
+                                    desde
+                                    os
+                                    campeões da Robocup, até a Startup do ano, valendo uma incrível viagem para o
+                                    vale
+                                    do
+                                    Silicio.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of the "next" event -->
+
+    <!-- Beggining of machine learning -->
+
+    <div id="handsOn" class="container-fluid p-5 d-flex row text-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center">
+            <h2 class="solution-title text-blue display-2">Ser hands on é ser
+            </h2>
+            <span class="solution-span text-light display-5 mb-4 ms-3"></span>
+        </div>
+
+        <div class="col-lg-2"></div>
+        <div class="d-flex row col-lg-8 col-md-12 col-sm-12">
+            <p class="text-light text-center fs-5">Startup criada e formada por alunos do curso de Sistema de Informação
+                da
+                FIAP para integrar o ensino de robótica nas escolas junto à fabricantes de peças
+                para robôs, com foco no mundo de negócios e em como as empresas atuais
+                realmente trabalham.
+            </p>
+            <p class="text-light text-center fs-5">
+                A empresa fornecerá as peças e a escola junto à Machine for Learning começarão um
+                projeto de acordo com o desafio proposto pela empresa.
+            </p>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 container-fluid p-5">
+            <img class=" img-md img-fluid rounded" src="./images/Machine for learning/moça.jpeg"
+                alt="mulher mexendo no notebook">
+        </div>
+        <div class="row container text-center col-lg-5 align-items-center">
+            <p class="text-light fs-5">Usando metodologia ágil para os projetos,
+                temos uma forma totalmente interativa com
+                o cliente para a entrega dos robôs
+                perfeitamente desenhados nas suas sprints e
+                montados no seu resultado, captura de
+                clientes junto das grandes produtoras de
+                peças para robôs, para integração às escolas
+                trazendo conteúdo novo a cada projeto e
+                assim ensinando os alunos a montar os robôs
+                e entregarem as demandas de acordo com o
+                cliente, funcionando como uma empresa.</p>
+        </div>
+        <p class="text-light fs-5">Hands’ On é um método de aprendizado extremamente eficiente no qual os alunos são
+            os
+            protagonistas. Já ouviu o ditado é praticando que se aprende? Com a Machine for Learning o
+            aluno colocará em prática tudo aquilo que ele aprender dentro e fora da sala de aula.
+            Esse método tem o benefício do aperfeiçoamento de softskills muito importantes no mercado
+            de trabalho atual, como sendo elas: autogestão e proatividade. Com tais habilidades o aluno já
+            estará apto para conseguir ingressar no marcado de trabalho com facilidade
+            Nosso sistema de controle de qualidade está preparado para lidar com nossas empresas
+            parceiras que deverão respeitar os valores da empresa
+        </p>
+
+
+        <div class="d-flex row justify-content-evenly p-5 my-3">
+            <h3 class="display-5 text-blue">QUALIDADE MELHOR QUE QUANTIDADE</h3>
+            <div class="card text-bg-light mb-3 col-md-5 col-lg-5 my-4">
+
+                <div class="card-body">
+                    <p class="card-text fs-4">Faremos esse controle a partir de uma solução chamada CMM. CMM é um modelo
+                        para
+                        avaliação de risco na contratação de empresas de software pelo Departamento de
+                        Defesa dos Estados Unidos que desejava ser capaz de avaliar os processos de
+                        desenvolvimento utilizados pelas empresas
+                    </p>
+                </div>
+            </div>
+
+            <div class="card text-bg-light mb-3 col-md-5 col-lg-5 my-4">
+
+                <div class="card-body">
+                    <p class="card-text fs-4">Com rápido atendimento dos clientes, metodologia ágil sendo aplicada e
+                        demonstração dos
+                        serviços sendo executados, podemos medir o nível de satisfação enquanto o projeto está em
+                        andamento, assim, construir-medir é feito e aprendemos sempre enquanto a atividade anda,
+                        pois com o scrum, temos sempre o feedback do consumidor, pois eles atuam diretamente no
+                        projeto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of machine learning -->
+
+
+
+
+    <!-- beggining of forms -->
+    <div id="contato" class="container half-height col-md-12 col-lg-12 col-sm-12">
+        <div class="text-center container-fluid my-4">
+            <h1 class="display-3 text-blue">Formulário de Contato</h1>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="form-floating col-12 col-md-5 col-xl-4 my-2">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <label class="ms-2" for="nome">Nome</label>
+            </div>
+            <div class="form-floating col-12 col-md-5 col-xl-4 my-2">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <label class="ms-2" for="email">Email</label>
+            </div>
+
+            <div class="form-floating col-12 col-md-10 col-xl-8 my-3">
+                <textarea class="textarea-size form-control" placeholder="Mensagem" id="mensagem" maxlength="500"
+                    style="height: 20vh;"></textarea>
+                <label class="ms-2" for="mensagem">Mensagem</label>
+                <div class="col-12 col-md-10 col-lg-8">
+                    <span class="form-text">Suas informações não serão divulgadas ou compartilhadas na
+                        internet</span>
+                </div>
+            </div>
+            <div class="col-8"><button type="submit" class="float-end btn btn-primary">Enviar</button></div>
+        </div>
+
+    </div>
+    <!-- End of forms -->
+
+    <!-- beggining of footer -->
+    <div class="footer"></div>
+    <!-- End of footer -->
+
+    <footer class="d-flex align-self-end mt-5">
+        <div class="bg-dark text-light container-fluid p-3">
+            <ul class="d-flex justify-content-evenly mt-3" style="list-style: none;">
+                <li>email@plat.com.br</li>
+                <li class="d-flex align-items-center text-light"><i class="fa-brands fa-youtube fs-4"></i><a
+                        class="mx-2" target="_blank" style="text-decoration: none; color: white;"
+                        href="https://www.youtube.com/channel/UCxB8y3Kw9t82E7_nwosm8ew">Team Olimpo</a></li>
+                <li><a class="mx-2" target="_blank" style="text-decoration: none; color: white;" href="./">Perguntas
+                        Frequentes</a></li>
+                </uls>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

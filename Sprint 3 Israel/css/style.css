@@ -1,0 +1,55 @@
+.full-height {
+    height: 100vh;
+}
+.text-blue {
+    color: #42d3f8;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.next{
+    background-image: url(../images/RoboCup-Next/next.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.half-height {
+    height: 50vh;
+}
+
+.img-icon-size {
+    height: 80px;
+    width: 80px;
+}
+
+
+.solution-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.solution-span {
+    display: block;
+}
+
+.solution-span::after {
+    content: 'Responsável';
+    animation: solution 5s infinite;
+}
+
+@keyframes solution {
+    25% {
+        content: ' Flexível';
+    }
+
+    50% {
+        content: ' Proativo';
+    }
+
+    75% {
+        content: ' Responsável';
+    }
+}
